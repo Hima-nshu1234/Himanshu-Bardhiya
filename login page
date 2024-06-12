@@ -1,0 +1,55 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+<style>
+    body{
+        text-align: center;
+        background-image: "C:\Users\Hp\OneDrive\Desktop\download (1).jpg";
+        background-image: no repeating-linear-gradient();
+        background-color: chocolate;
+        border-style: double;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .nav {
+        overflow: hidden;
+        background-color: black;
+    }
+    .nav a {
+        font-size: 40px;
+        padding: 15px 18px;
+        float: left;
+        display: block;
+        color: whitesmoke;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Feedback</a>
+                <a href="#">Contact</a>
+                <a href="#">Careers</a>
+                
+            </div>
+        </nav>
+    </header>
+    <form action="login.php" method="post">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Login">
+        <a href="index.html">login</a>
+    </form>
+</body>
+</html>
